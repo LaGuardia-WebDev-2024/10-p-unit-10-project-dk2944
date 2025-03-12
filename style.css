@@ -15,7 +15,11 @@ html{
 
 #myCanvas {
   border: 1px solid black;
+  background-image: url("https://images.pexels.com/photos/210307/pexels-photo-210307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size:cover;
+  background-repeat:no-repeat;
 }
+
 
 .container{
   display: flex;
