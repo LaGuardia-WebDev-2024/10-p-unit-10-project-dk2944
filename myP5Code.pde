@@ -5,7 +5,7 @@ setup = function() {
 
 // (100, 50), (100, 50) and (130, 100);
  //Example Function Call
-drawPig(100, -200);
+drawPig(-15, -200);
 fill(224, 167, 94);
 for(var i=35;i<335;i+=100){
   triangle(246+i, 135, 356+i, 309, 130+i, 309);
@@ -31,7 +31,7 @@ var drawPig = function(pigX, pigY){
   stroke(0,0,0)
 
   fill(229, 149,  120)
-  rect(100+pigX, 480+pigY,20,60)
+  rect(155+pigX, 480+pigY,20,60)
   rect(90+pigX, 480+pigY,20,60)
   ellipse(130+pigX, 430+pigY, 120,150)
   ellipse(130+pigX, 330+pigY,100,100)
